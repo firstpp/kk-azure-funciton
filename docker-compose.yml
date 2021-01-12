@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  python-azure-function:
+    build: .
+    image: azure-function:${version}
+    container_name: ${CONTAINNER_NAME}
+    ports:
+      - "8888:80"
+    volumes: 
+      - ".:/home/site/wwwroot"
+    env_file: .env

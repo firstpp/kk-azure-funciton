@@ -1,0 +1,15 @@
+# Do not include azure-functions-worker as it may conflict with the Azure Functions platform
+
+azure-functions
+azure-storage-blob
+numpy
+pandas
+playwright
+browser
+selenium
+azure-keyvault-secrets
+azure-identity
+asyncio
+datetime
+lxml
+bs4

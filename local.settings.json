@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobs.DownloadFile.Disabled": "true",
+    "AzureWebJobs.bstry.Disabled": "true",
+    "AzureWebJobs.FI_CB_015.Disabled": "true",
+    "AzureWebJobs.FI_CB_021.Disabled": "true",
+    "AzureWebJobs.HttpExample.Disabled": "true",
+    "AzureWebJobs.test.Disabled": "true"
+  }
+}
